@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Shivam Prajapati - Portfolio</title>
+</head>
+
+<body>
+  <!--=================a=== NAV ====================-->
+  <nav class="navbar">
+    <div class="nav-item" data-hover="Home">
+      <i class="fas fa-home"></i>
+    </div>
+    <div class="nav-item" data-hover="Projects">
+      <i class="fas fa-folder"></i>
+    </div>
+    <div class="nav-item" data-hover="Skills">
+      <i class="fas fa-calendar"></i>
+    </div>
+    <div class="nav-item" data-hover="Achievements">
+      <i class="fa-solid fa-trophy"></i>
+    </div>
+    <div class="nav-item" data-hover="Contact">
+      <i class="fa-regular fa-paper-plane"></i>
+    </div>
+  </nav>
+
+  <!--==================== PROFILE SIDEBAR ====================-->
+  <div class="profile-sidebar">
+    <div class="card">
+      <div class="card-content">
+        <div class="profile-image">
+          <img src="./assets/img/heart.jpg" alt="Profile Image">
+        </div>
+        <div class="profile-details">
+          <h1 class="profile-name">Shivam Prajapati</h1>
+          <p class="profile-description">B.E. in Information Technology Student at Thakur College of Engineering and
+            Technology
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/Prajapatishivam65"><i class="fab fa-github social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/shivam-prajapati-102b61335/"><i
+                class="fab fa-linkedin social-icon"></i></a>
+            <a href="https://x.com/SPrajapati275"><i class="fab fa-twitter social-icon"></i></a>
+            <a href="mailto:workshivam00@gmail.com"><i class="fas fa-envelope social-icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="content-area">
+        <div class="hero-text">
+          <h1 class="title-main">FULL STACK</h1>
+          <h2 class="title-sub">DEVELOPER</h2>
+          <p class="title-description">
+            Final-year IT student (CGPA: 8.9) passionate about crafting efficient web applications with expertise in
+            full-stack development and have hands-on experience with modern
+            web technologies.
+          </p>
+          <div class="hero-buttons">
+            <a href="https://www.dropbox.com/scl/fi/60uwuxt2phnwfe5735lwb/Shivam-resume-final.pdf?rlkey=330mx9onmta37fzp9izycoowe&st=44vucg4m&dl=0"
+              target="_blank" class="hero-button resume-btn">
+              <i class="fas fa-file-alt"></i>
+              View Resume
+            </a>
+            <a href="mailto:workshivam00@example.com?subject=Let's%20Connect%20-%20Job%20Opportunity&body=Hi%20there%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%0A%0ABest%20regards%2C%0A[Your%20Name]"
+              class="hero-button contact-btn">
+              <i class="fas fa-envelope"></i>
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== PROJECTS ====================-->
+    <section class="projects section" id="projects">
+      <div class="content-area">
+        <div class="hero-text">
+          <h1 class="title-main">RECENT</h1>
+          <h2 class="title-sub">PROJECTS</h2>
+        </div>
+
+        <div class="projects-container">
+          <div class="project-card" onclick="window.open('https://hive-docs-five.vercel.app/', '_blank')">
+            <div class="project-image">
+              <img src="./assets/img/project1s.png" alt="NajmAI Project">
+            </div>
+            <div class="project-info">
+              <h2 class="project-title">Hive-Docs</h2>
+              <p class="project-description">Real-time collaborative document editing platform with integrated chat
+                features</p>
+            </div>
+            <span class="arrow-icon">↗</span>
+          </div>
+
+          <div class="project-card" onclick="window.open('https://youtu.be/VuHT1SOv68o?si=RpzTP8D-ewtSbMEb', '_blank')">
+            <div class="project-image">
+              <img src="./assets/img/Screenshot 2025-01-22 133114.png" alt="Nashra Project">
+            </div>
+            <div class="project-info">
+              <h2 class="project-title">ED Stock</h2>
+              <p class="project-description">Inventory management tool with analytics for efficient stock tracking</p>
+            </div>
+            <span class="arrow-icon">↗</span>
+          </div>
+
+          <!-- <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://imgs.search.brave.com/23R6j7xkupKfeK31yBFsxylqZIWyJ4gGynTJWkccjyA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ3/MjMzNTQ3Ni9waG90/by9kaWdpdGFsbHkt/Z2VuZXJhdGVkLWlt/YWdlLW9mLWlzb21l/dHJpYy1kYXRhLWNo/YXJ0LmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1RTmtnZlZn/WUNYUTdsbzg0TWdt/Y0NtTVAwb1Fsdl9t/V252aWFPc1ktNEQw/PQ"
+                alt="Ruya Project">
+            </div>
+            <div class="project-info">
+              <h2 class="project-title">Ruya</h2>
+              <p class="project-description">SaaS Framer Template</p>
+            </div>
+            <span class="arrow-icon">↗</span>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <div class="content-area">
+        <div class="hero-text">
+          <h1 class="title-main">MY</h1>
+          <h2 class="title-sub">SKILLS</h2>
+        </div>
+
+        <div class="skills-container">
+          <!-- Frontend -->
+          <div class="skill-card">
+            <img src="./assets/img/skills-html.svg" alt="React" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">HTML5</div>
+              <div class="skill-description">Frontend Development</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets//img/skills-css.svg" alt="Next.js" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">CSS 3</div>
+              <div class="skill-description">Frontend Development</div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <img src="assets/img/Typescript.webp" alt="TypeScript" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">TypeScript</div>
+              <div class="skill-description">Type-Safe JavaScript</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/img/skills-react.svg" alt="React.js" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">React JS</div>
+              <div class="skill-description">Frontend Development</div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <img
+              src="https://imgs.search.brave.com/uSpiLdK09abC_lLnxw5RIaD4KYY21HLoI8-6eLP9p0M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9uZXh0anMtaWNv/bi5zdmc"
+              alt="Figma" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">Next JS</div>
+              <div class="skill-description">Frontend Development</div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <img src="./assets/img/skills-tailwind-css.svg" alt="Tailwind" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">Tailwind</div>
+              <div class="skill-description">CSS Framework</div>
+            </div>
+          </div>
+          <!-- Backend -->
+          <div class="skill-card">
+            <img
+              src="./assets/img/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--nodejs-programming-language-pack-logos-icons-1174925.webp"
+              alt="Node.js" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">Node.js</div>
+              <div class="skill-description">Backend Runtime</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <img src="./assets/img/download.png" alt="Express" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">Express</div>
+              <div class="skill-description">Node.js Framework</div>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-card">
+            <img src="./assets/img/MongoDB.webp" alt="MongoDB" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">MongoDB</div>
+              <div class="skill-description">NoSQL Database</div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <img src="assets/img/elephant.webp" alt="PostgreSQL" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">PostgreSQL</div>
+              <div class="skill-description">SQL Database</div>
+            </div>
+          </div>
+          <!-- Tools -->
+          <!-- <div class="skill-card">
+            <img
+              src="https://imgs.search.brave.com/uSpiLdK09abC_lLnxw5RIaD4KYY21HLoI8-6eLP9p0M/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2dp/bGJhcmJhcmEvbG9n/b3MvbWFpbi9sb2dv/cy9uZXh0anMtaWNv/bi5zdmc"
+              alt="Docker" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">Docker</div>
+              <div class="skill-description">Containerization</div>
+            </div>
+          </div> -->
+
+          <div class="skill-card">
+            <img src="./assets/img/skills-git.svg" alt="Git" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">Git</div>
+              <div class="skill-description">Version Control</div>
+            </div>
+          </div>
+
+          <!-- DSA -->
+          <div class="skill-card">
+            <img src="./assets/img/C++_Logo.webp" alt="Figma" class="skill-icon" />
+            <div class="skill-info">
+              <div class="skill-name">C++</div>
+              <div class="skill-description">Data structures</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ACHIEVEMENTS ====================-->
+    <section class="achievements section" id="achievements">
+      <div class="content-area">
+        <div class="hero-text">
+          <h1 class="title-achieve-main">MY</h1>
+          <h2 class="title-achieve-sub">ACHIEVEMENTS</h2>
+        </div>
+
+        <div class="blog-posts">
+          <div class="blog-post-card">
+            <a href="https://leetcode.com/u/shivam75/" class="blog-post-link" target="_blank" rel="noopener noreferrer">
+              <div class="blog-title">
+                <img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png"
+                  alt="LeetCode Logo">
+                <p class="blog-title-text">
+                  LeetCode
+                </p>
+              </div>
+              <p class="blog-description">
+                Solved over 200 problems on LeetCode. Each challenge has been an opportunity
+                to refine my problem-solving skills and deepen my understanding of algorithms and data structures.
+              </p>
+              <span class="arrow-icon">↗</span>
+            </a>
+          </div>
+          <div class="blog-post-card">
+            <a href="https://www.codechef.com/users/shivam275" class="blog-post-link" target="_blank"
+              rel="noopener noreferrer">
+              <div class="blog-title">
+                <img src="https://www.codechef.com/sites/all/themes/abessive/logo.svg" alt="CodeChef Logo">
+              </div>
+              <p class="blog-description">
+                <p class="blog-description">
+                  Achieved a 1200+ rating on CodeChef by solving a wide range of problems. This
+                  experience has strengthened my algorithmic thinking and coding proficiency.
+                </p>
+              </p>
+              <span class="arrow-icon">↗</span>
+            </a>
+          </div>
+          <div class="blog-post-card">
+            <a href="https://www.dropbox.com/scl/fi/isda7ctutrz8xs0xuk5r9/Great-learning-certificate.jpg?rlkey=crezdrrmfb52j0k7pru0lqf94&st=077yn599&dl=0"
+              class="blog-post-link" target="_blank" rel="noopener noreferrer">
+              <div class="blog-title">
+                <img src="./assets/img/images.png" alt="LeetCode Logo">
+              </div>
+              <p class="blog-description">
+                Completed Data Analytics Crash Course from Great Learning, enhancing my understanding of data analysis
+                and visualization.
+              </p>
+              <span class="arrow-icon">↗</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--==================== FOOTER ====================-->
+
+    <footer class="footer section" id="contact">
+      <div class="footer-content">
+        <div class="footer-main">
+          <!-- Brand Section -->
+          <div class="footer-brand">
+            <h2 class="brand-name">Shivam Prajapati</h2>
+            <div class="footer-social">
+              <a href="https://github.com/Prajapatishivam65" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/shivam-prajapati-102b61335/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://x.com/SPrajapati275" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="mailto:workshivam00@gmail.com">
+                <i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:workshivam00@gmail.com">workshivam00@gmail.com</a>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+919892502040">+91 98925 02040</a>
+              </li>
+              <li>
+                <i class="fas fa-location-dot"></i>
+                <span>Mumbai, India</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2025 Shivam. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!--=============== MAIN JS ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
