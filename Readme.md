@@ -45,7 +45,7 @@ An intuitive platform to analyze stock trends using **Next.js**, **Tailwind CSS*
 📧 **Email**: [your.email@example.com](mailto:your.workshivam00@example.com)  
 🌐 **Website**: [yourwebsite.com](https://yourwebsite.com)  
 💼 **LinkedIn**: [linkedin.com/in/yourprofile](https://github.com/Prajapatishivam65)  
-🐦 **Twitter**: [@yourhandle](https://x.com/SPrajapati275)  
+🐦 **Twitter**: [@myhandle](https://x.com/SPrajapati275)  
 📂 **GitHub**: [github.com/yourusername](https://github.com/PrajapatiShivam65)
 
 ---
